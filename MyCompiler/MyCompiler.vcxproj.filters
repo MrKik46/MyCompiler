@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\scr">
+      <UniqueIdentifier>{46884049-912b-452e-991d-f51e589915bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\includes">
+      <UniqueIdentifier>{92150093-0222-4add-878b-b9f0bda8df5a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyCompiler.cpp">
+      <Filter>Исходные файлы\scr</Filter>
+    </ClCompile>
+    <ClCompile Include="lexer.cpp">
+      <Filter>Исходные файлы\scr</Filter>
+    </ClCompile>
+    <ClCompile Include="parser.cpp">
+      <Filter>Исходные файлы\scr</Filter>
+    </ClCompile>
+    <ClCompile Include="find.cpp">
+      <Filter>Исходные файлы\scr</Filter>
+    </ClCompile>
+    <ClCompile Include="error.cpp">
+      <Filter>Исходные файлы\scr</Filter>
+    </ClCompile>
+    <ClCompile Include="token.cpp">
+      <Filter>Исходные файлы\scr</Filter>
+    </ClCompile>
+    <ClCompile Include="tokenSort.cpp">
+      <Filter>Исходные файлы\scr</Filter>
+    </ClCompile>
+    <ClCompile Include="errorSort.cpp">
+      <Filter>Исходные файлы\scr</Filter>
+    </ClCompile>
+    <ClCompile Include="workWithFile.cpp">
+      <Filter>Исходные файлы\scr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="find.h">
+      <Filter>Исходные файлы\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="lexer.h">
+      <Filter>Исходные файлы\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="parser.h">
+      <Filter>Исходные файлы\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="error.h">
+      <Filter>Исходные файлы\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="token.h">
+      <Filter>Исходные файлы\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="tokenSort.h">
+      <Filter>Исходные файлы\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="errorSort.h">
+      <Filter>Исходные файлы\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="workWithFile.h">
+      <Filter>Исходные файлы\includes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
