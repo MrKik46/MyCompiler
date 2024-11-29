@@ -12,9 +12,7 @@
 
 
 int main() {
-	for (/*;;*/) {
-
-	}
+	
 	WorkWithFile CodeToAnalysis;
 	std::string code_str = CodeToAnalysis.get_lines();
 		
